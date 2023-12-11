@@ -27,6 +27,7 @@ body{
     padding: 30px;
     border-radius: 4%;
     box-shadow: 3px 3px 1px 0px #00000060;
+    width: 400px;
 }
 
 h1{
@@ -101,30 +102,6 @@ button:hover{
     justify-content: center;
 }
 
-hr{
-    background-color: #272262;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    width: 60%;
-}
-
-p{
-    color: #272262;
-    font-size: 14pt;
-    text-align: center;
-}
-
-a{
-    color: rgb(201, 1, 1);
-    font-weight: bold;
-    text-decoration: none;
-}
-
-a:hover{
-    color: #272262;
-    transition: all .4s ease-out;
-}
-
 .fa-eye{
     position: absolute;
     top: 14px;
@@ -132,3 +109,5 @@ a:hover{
     cursor: pointer;
     color: #272262;
 }
+
+
