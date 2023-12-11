@@ -7,6 +7,7 @@
     </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style-t2.css">
+    <script src="main.js"></script>
 </head>
 <body>
     <div class="container">
@@ -31,7 +32,7 @@
         <div class="label-float">
             <input type="password" id="confirmSenha" placeholder="" required>
             <label for="confirmSenha">Confirma Senha</label>
-            <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+            <i id="verConfirmeSenha" class="fa fa-eye" aria-hidden="true"></i>
         </div>
 
         <div class="justify-center">
@@ -40,18 +41,5 @@
 
         </div>
     </div>
-    <script>
-        let btn = document.querySelector('.fa-eye')
-
-        btn.addEventListener('click', ()=>{
-            let inputSenha = document.querySelector('#senha')
-
-            if(inputSenha.getAttribute('type') == 'password'){
-                inputSenha.setAttribute('type', 'text')
-            } else{
-                inputSenha.setAttribute('type', 'password')
-            }
-        })
-    </script>
 </body>
 </html>
