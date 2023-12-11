@@ -1,3 +1,4 @@
+//Espiar a senha.
 let btn = document.querySelector('#verSenha')
 let btnConfirm = document.querySelector('#verConfirmSenha')
 
@@ -11,6 +12,7 @@ btn.addEventListener('click', ()=>{
     }
   })
   
+  //Espiar o confirme a senha.
   btnConfirm.addEventListener('click', ()=>{
     let inputConfirmSenha = document.querySelector('#confirmSenha')
     
@@ -20,4 +22,6 @@ btn.addEventListener('click', ()=>{
       inputConfirmSenha.setAttribute('type', 'password')
     }
   })
+  
+
   
