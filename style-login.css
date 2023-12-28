@@ -2,17 +2,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html{
+    background:  #ffffff;
 }
 
-body{
-    background-image: url(Sem\ título_ALTA-scale-2_00x.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-attachment: fixed;
+.outside-container{
+background-color: #00305B;
+height: 800px;
+margin: 50px;
+border-radius: 100px;
 }
 
 .container{
@@ -23,51 +24,71 @@ body{
 }
 
 .card{
-    background-color: #00000017;
+    background-color: #ffffff;
     padding: 30px;
     border-radius: 4%;
     box-shadow: 3px 3px 1px 0px #00000060;
+    bottom: 350px;
 }
 
 h1{
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
     text-align: center;
-    margin-bottom: 20px;
-    color: #272262;
+    position: relative;
+    top: 75px;
 }
 
 .label-float input{
-    width: 100%;
-    padding: 5px 5px;
-    display: inline-block;
-    border: 0;
-    border-bottom: 1px solid #272262;
+    padding-left: 8px;
     background-color: transparent;
     outline: none;
     min-width: 180px;
     font-size: 16px;
     transition: all .3s ease-out;
-    border-radius: 0;
+    border-radius: 5px;
+    width: 348px;
+    height: 64px;
+    border-color: rgba(0, 0, 0, 0.26);
+   
 }
 
 .label-float {
+ 
     position: relative;
-    padding-top: 13px;
+    padding-bottom: 5px;
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
 .label-float input:focus{
-    border-bottom: 2px solid #4038a0;
+    border: 2px solid #4038a0;
+}
+
+.label-float label:focus{
+    color: red;
 }
 
 .label-float label{
+    text-transform: uppercase;
     color: #272262;
     pointer-events: none;
     position: absolute;
     top: 0;
     left: 0;
-    margin-top: 13px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 13px;
     transition: all .3s ease-out;
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .label-float input:focus + label,
@@ -78,21 +99,29 @@ h1{
 }
 
 button{
-    background-color: transparent;
-    border-color: #272262;
-    color: #272262;
-    padding: 7px;
-    font-weight: bold;
-    font-size: 12pt;
+    border-radius: 5px;
+    border: none;
+    background: #D60A0B;
+    background-color:  #D60A0B;
+    color:  #ffffff;
+    padding: 7px;   
     margin-top: 20px;
-    border-radius: 4px;
     cursor: pointer;
     outline: none;
     transition: all .4s ease-out;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: #FFFF;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 button:hover{
-    background-color: #272262;
+    background-color:  #D60A0B;
     color: #fff;
 }
 
@@ -109,9 +138,13 @@ hr{
 }
 
 p{
-    color: #272262;
-    font-size: 14pt;
-    text-align: center;
+    color: #14238A;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
 }
 
 a{
@@ -127,8 +160,8 @@ a:hover{
 
 .fa-eye{
     position: absolute;
-    top: 14px;
-    right: 13px;
+    top: 22px;
+    right: 20px;
     cursor: pointer;
-    color: #272262;
+    color: #272262c5;
 }
