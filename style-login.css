@@ -131,13 +131,6 @@ button:hover{
     justify-content: center;
 }
 
-hr{
-    background-color: #272262;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    width: 60%;
-}
-
 p{
     color: #14238A;
     font-family: Poppins;
